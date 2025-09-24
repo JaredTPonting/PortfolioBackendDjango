@@ -40,6 +40,9 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5174",
     "https://www.jpproductions.net"
 ]
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://deploy-preview-\d+--jtpproductions\.netlify\.app$",
+]
 
 
 # Application definition
